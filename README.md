@@ -33,5 +33,8 @@
     virtualenv google_env
     cd google_env/Scripts
     activate
+    cd ..
+    cd ..
     pip install -r requirements.txt
+    python app.py
   ```

@@ -1,0 +1,4 @@
+.env
+client-secret.json
+__pycache__
+google_env

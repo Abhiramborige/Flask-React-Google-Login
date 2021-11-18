@@ -25,6 +25,8 @@
     FRONTEND_URL=http://localhost:3000
   ```
 2. Go to https://console.cloud.google.com/ and create client secrets and configuration file
+3. Save as client-secret.json
+4. Use the commands to start the server locally.
   ```
     cd flask-server-google
     pip install virtualenv

@@ -18,8 +18,8 @@
     DB_NAME=
     CLUSTER_URL=
     GOOGLE_CLIENT_ID=
-    SECRET_KEY=HelloAll
-    ALGORITHM=HS256
+    SECRET_KEY=
+    ALGORITHM=
     PROJECT_ID=
     BACKEND_URL=http://127.0.0.1:5000
     FRONTEND_URL=http://localhost:3000

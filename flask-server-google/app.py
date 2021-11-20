@@ -42,6 +42,7 @@ flow = Flow.from_client_secrets_file(
     redirect_uri=BACKEND_URL+"/callback",
 )
 
+
 # wrapper
 def login_required(function):
     def wrapper(*args, **kwargs):
@@ -66,7 +67,7 @@ def callback():
     token_request = google.auth.transport.requests.Request(session=request_session)
 
     id_info = id_token.verify_oauth2_token(
-        id_token=credentials._id_token, request=token_request, 
+        id_token=credentials._id_token, request=token_request,
         audience=GOOGLE_CLIENT_ID
     )
     session["google_id"] = id_info.get("sub")
